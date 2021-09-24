@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+	background: linear-gradient(
+		56.85deg,
+		#7303c0,
+		#8a2387,
+		#ee0979,
+		#ff0080,
+		#e94057,
+		#ff6a00,
+		#ff8c00
+	);
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	background: #ecf4ff;
+	margin: 64px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #7303c0;
+	color: #800080;
+	padding: 64px;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+.perfil {
+	display: flex;
+}
+
+.perfil-foto {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 460px;
+	max-height: 160px;
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.titulo h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.tema button {
+	align-self: flex-end;
+	font-weight: 400;
+	font-size: 24px;
+	padding: 8px 16px;
+	background: #ecf4ff;
+	border-radius: 100px;
+	color: #800080;
+	border: 2px solid #800080;
+	box-sizing: border-box;
+	width: 180px;
+	box-shadow: 2px 2px 2px #7303c0;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(
+		230.65deg,
+		#fbd786,
+		#f2c94c,
+		#f7797d,
+		#ef629f,
+		#c471ed
+	);
+	margin-top: 32px;
+	padding: 32px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #7303c0;
+}
+
+.projetos-titulo {
+	list-style: none;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.projetos-item {
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 48px;
+}
+
+.projetos-item a {
+	text-decoration: none;
+	color: #800080;
+}
+
+.dark {
+	background: linear-gradient(56.85deg, #41295a, #2f0743, #20002c);
+}
+
+.dark .container {
+	background: #03001e;
+	color: #f6f6f6;
+}
+
+.dark .projetos {
+	background: linear-gradient(230.65deg, #20002c, #41295a, #8e44ad);
+	color: #f6f6f6;
+}
+
+.dark .projetos-item a {
+	text-decoration: none;
+	color: #f6f6f6;
+}
+
+.dark .tema button {
+	background: #03001e;
+	color: #f6f6f6;
+	border: 2px solid #f6f6f6;
+	box-shadow: 2px 2px 2px #7303c0;
+}
